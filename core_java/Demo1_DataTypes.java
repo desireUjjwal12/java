@@ -10,7 +10,7 @@ class Demo1_DataTypes{
         double doubleVar = 20e10;     // 8 bytes
 
         char charVar = 'A';               // 2 bytes (Unicode character)
-        boolean boolVar = true;           // 1 bit (true/false)
+        boolean boolVar = true;           // 1 bit (true/false), In java int cannot be converted to boolean
 
         // Reference Data Type
         String stringVar = "Hello, Java!"; // String is a class (non-primitive)
