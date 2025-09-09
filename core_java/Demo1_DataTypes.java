@@ -7,7 +7,7 @@ class Demo1_DataTypes{
         long longVar = 10_00_00_00_000L;      // 8 bytes (suffix L is required)
 
         float floatVar = 10.5f;           // 4 bytes (suffix f is required)
-        double doubleVar = 20.123456;     // 8 bytes
+        double doubleVar = 20e10;     // 8 bytes
 
         char charVar = 'A';               // 2 bytes (Unicode character)
         boolean boolVar = true;           // 1 bit (true/false)
